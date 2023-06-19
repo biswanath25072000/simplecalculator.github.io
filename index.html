@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <script src="calculator.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <table id="whole_page">
+                <tr>
+                    <td>
+                        <div id="Heading_and_about">
+                            <div style="font-size:300% ;">
+                                Simple Calculator
+                            </div>
+                            <div>
+                                This is a simple calculator on web used to do simple
+                                <br> arithmetic calculations
+                            </div>
+                        </div>
+                    </td>
+                    <td rowspan="2" style="background-color: aliceblue; " id="calc_body">
+                        <div id="calculator_total">
+                            <table>
+                                <tr>
+                                    <td colspan="4">
+                                        <div id="output">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <div id="button_Group">
+                                    <tr>
+                                        <td>
+                                            <button class="buttons" id = "clrbtn" onclick="clr()">AC</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id = "clrbtn">+/-</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id = "clrbtn">%</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="+" onclick="display('+')">+</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="buttons" id="7" onclick="display('7')">7</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="8" onclick="display('8')">8</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="9" onclick="display('9')">9</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="-" onclick="display('-')">-</button>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <button class="buttons" id="4" onclick="display('4')">4</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="5" onclick="display('5')">5</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="6" onclick="display('6')">6</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="*" onclick="display('*')">*</button>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <button class="buttons" id="1" onclick="display('1')">1</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="2" onclick="display('2')">2</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="3" onclick="display('3')">3</button>
+                                        </td>
+                                        <td rowspan="2">
+                                            <button class="buttons" id="equals" onclick="calculate()" style="height: 140px;">=</button>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <button class="buttons" id="0" onclick="display('0')">0</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="." onclick="display('.')">.</button>
+                                        </td>
+                                        <td>
+                                            <button class="buttons" id="/" onclick="display('/')">/</button>
+                                        </td>
+                                    </tr>
+                                </div>
+                        </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="get_to_know">
+                        &nbsp; &nbsp; &nbsp;Get to know me :
+                        <br>
+                        <br>
+                        <div id="Github">
+                            <img src="./Images/NicePng_github-png_6158403.png" alt="Github_Logo" height="20px">
+                            GitHub : <a href="https://github.com/biswanath25072000" id="Github_link">https://github.com/biswanath25072000</a>
+                        </div>
+                        <br>
+                        <div id = "linkedin">
+                            <img src="./Images/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930587_72.png" alt="LinkedIn_Logo" height="21px">
+                            LinkedIn : <a href="https://www.linkedin.com/in/biswanathkarmakar25/" id="linkedin_link">https://www.linkedin.com/in/biswanathkarmakar25/</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
